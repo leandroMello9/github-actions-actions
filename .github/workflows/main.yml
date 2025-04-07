@@ -27,7 +27,7 @@ jobs:
       - name: "Verificação da versão do Node JS Atual"
         run: node --version
       - name: "Definição node latest"
-      - uses: actions/setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: '22.14.0'
       - name: "Verificação da versão do Node JS Atual"
